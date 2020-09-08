@@ -1,0 +1,16 @@
+{
+  "name": "isfl_whipper",
+  "version": "1.0.0",
+  "description": "Find out who to whip in your team by checking if they did a pointtask",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "chalk": "^4.1.0",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
