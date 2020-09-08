@@ -4,7 +4,7 @@
 You have to have node installed to run this script. To download node go to [this website](https://nodejs.org/en/download/ "this website") and download the latest LTS version.
 
 ## Installation
-After installing node, simply clone this project onto your computer.
+After installing node, simply clone this project onto your computer. Navigate to the folder in your terminal and run "npm i" to install the dependencies.
 
 ## Configuration
 Before using the script you need to go into the index.js and change the thread you want to check. To do this simply go to the point task in question and copy the thread id which are the numbers behind the ?tid= in the URL on the forums. For example for [this thread](https://forums.sim-football.com/showthread.php?tid=25277) the ID is 25277.
