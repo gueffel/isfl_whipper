@@ -2,11 +2,11 @@ const axios = require("axios");
 const cheerio = require("cheerio");
 const fs = require("fs");
 
-let threadID = "25277";
+let threadID = "25506";
 const baseUrl = "https://forums.sim-football.com/";
 const parsedResults = [];
 const url = baseUrl + "showthread.php?tid=" + threadID;
-const team = ["r0tzbua", "OrbitingDeath", "SlurmsMckenzie", "nexus1353", "bj_owns", "TheWoZy", "AirCrou", "Nowordofalie", "Asked Madden", "nutbarspadge", "Oneski", "Regius", "McCransky", "zaynzk", "r0tzbua", "DingusDiddler", "Kai", "Bkfootball", "ReverendOReily", "Official DT", "DunkinDuncan", "Skyfish", "xTri", "PigSnout", "Kyamprac", "hexify"];
+const team = ["r0tzbua", "OrbitingDeath", "SlurmsMckenzie", "nexus1353", "bj_owns", "TheWoZy", "AirCrou", "Nowordofalie", "Asked Madden", "nutbarspadge", "Oneski", "Regius", "McCransky", "zaynzk", "DingusDiddler", "Kai", "Bkfootball", "ReverendOReily", "Official DT", "DunkinDuncan", "Skyfish", "xTri", "PigSnout", "Kyamprac", "hexify"];
 
 console.log(`Scraping of ${url} initiated ...\n`);
 
