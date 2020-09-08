@@ -32,7 +32,7 @@ const getThreadContent = async (url) => {
       return false;
     }
 
-    console.log(`Scraping: ${nextPageLink}`);
+    console.log(`Scraping: ${nextPageLink} frost sux lmap`);
     getThreadContent(baseUrl + nextPageLink);
   } catch (error) {
     console.log(team.filter( e => !parsedResults.includes(e)) );
